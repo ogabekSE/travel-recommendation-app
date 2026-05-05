@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+nav {
+    background: #013243;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffd700;
+}
+header, main, footer {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+}
+header {
+    text-align: center;
+}
+.recommendation {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.recommendation img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 30px auto;
+    gap: 12px;
+}
+button {
+    background: #013243;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background: #005566;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #999;
+    background: none;
+}
